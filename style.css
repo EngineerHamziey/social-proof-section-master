@@ -1,0 +1,153 @@
+/*
+  style guild:
+  The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+- Weights: 400, 500, 700
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White:hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 0.9735rem;
+  max-width: 23rem;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 4rem 0.8rem;
+/* to ensure that mobile version is pixel perfect 
+for testing only*/
+  /* width: 375px; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.white-text {
+  color: var(--White);
+}
+
+.main-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1.5rem 2.5rem 1.5rem;
+}
+
+header h1 {
+  color: var(--Very-Dark-Magenta);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 2rem 1rem 2rem;
+}
+
+header p {
+  color: var(--Dark-Grayish-Magenta);
+  font-weight: 400;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* fro visualization */
+  /* background-color: red; */
+  /* padding: 1rem; */
+  width: 100%;
+}
+
+.each-rating {
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  background: var(--Light-Grayish-Magenta);
+  border-radius: 0.3rem;
+}
+
+.stars {
+  padding: 0 0 0.7rem 0;
+}
+
+.buyers {
+  margin-top: 2.4rem;
+}
+
+.each-buyer {
+  background: var(--Very-Dark-Magenta);
+  border-radius: 0.3rem;
+  /* display: flex; */
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+
+
+/* footer */
+
+
+a {
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
