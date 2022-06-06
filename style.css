@@ -21,8 +21,12 @@ body {
   font-size: 0.9735rem;
   max-width: 29rem;
   font-family: "League Spartan",sans-serif;
-  margin: auto;
   padding: 4rem 0.8rem 0 0.8rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .white-text {
