@@ -118,9 +118,11 @@ header p {
   font-size: 1rem;
 }
 
-.name-wrap h3 {
+.name-wrap span {
+  display: block;
   font-weight: 400;
   color: var(--Soft-Pink);
+  margin-top: 0.1rem;
 }
 
 
@@ -227,7 +229,7 @@ a:focus-visible {
   }
 
   .top-wrap {
-    padding-bottom: 0.8rem;
+    padding-bottom: 1.8rem;
   }
 
   .attribution {
