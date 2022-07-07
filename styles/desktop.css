@@ -1,0 +1,5 @@
+header:before {
+  content: "SORRY, I'M REBUILDING THE SITE";
+  color: var(--Soft-Pink);
+  font-size: 3rem;
+}

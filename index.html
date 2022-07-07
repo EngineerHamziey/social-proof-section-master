@@ -5,9 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="This is Engineer Hamziey's solution to FrontendMentor challenge(social proof section master)">
-  <meta name="Keywords" content="Web developer,Engineer Hamziey, Frontend developer">
-  <link rel="stylesheet" href="style.css">
+    content="This is Engineer Hamziey's solution to FrontendMentor challenge social proof section master">
+  <meta name="Keywords" content="Web developer,EngineerHamziey, Frontend developer">
+  <link rel="stylesheet" href="./styles/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="./styles/desktop.css">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
@@ -16,57 +17,57 @@
 </head>
 
 <body>
+  <header>
+    <h1>10,000+ of our users love our products.</h1>
+    <p>
+      We only provide great products combined with excellent customer service.
+      See what our satisfied customers are saying about our services.
+    </p>
+  </header>
   <main class="main-container">
-    <div class="header-rating">
-      <header>
-        <h1>10,000+ of our users love our products.</h1>
+    <!-- <div class="header-rating"> -->
+    <ul class="rating">
+      <li class="each-rating">
+        <div class="stars">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+        </div>
         <p>
-          We only provide great products combined with excellent customer service.
-          See what our satisfied customers are saying about our services.
+          Rated 5 Stars in Reviews
         </p>
-      </header>
-      <section class="rating">
-        <div class="each-rating">
-          <div class="stars">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-          </div>
-          <p>
-            Rated 5 Stars in Reviews
-          </p>
+      </li>
+      <li class="each-rating">
+        <div class="stars">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
         </div>
-        <div class="each-rating">
-          <p>
-          <div class="stars">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-          </div>
+        <p>
           Rated 5 Stars in Report Guru
-          </p>
+        </p>
+      </li>
+      <li class="each-rating">
+        <div class="stars">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
         </div>
-        <div class="each-rating">
-          <div class="stars">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-          </div>
 
-          <p>
-            Rated 5 Stars in BestTech
-          </p>
-        </div>
-      </section>
-    </div>
-    <section class="buyers">
-      <div class="each-buyer">
+        <p>
+          Rated 5 Stars in BestTech
+        </p>
+      </li>
+    </ul>
+    <!-- </div> -->
+    <ul class="buyers">
+      <li class="each-buyer">
         <div class="top-wrap">
           <img src="./images/image-colton.jpg" alt="Colton Smith">
           <div class="name-wrap">
@@ -74,13 +75,13 @@
             <span>Verified Buyer</span>
           </div>
         </div>
-        <p class="white-text">
+        <blockquote cite="https://www.linkedin.com/in/hamzat-lawal-a88404239" class="white-text">
           "We needed the same printed design as the one we had ordered a week prior.
           Not only did they find the original order, but we also received it in time.
           Excellent!"
-        </p>
-      </div>
-      <div class="each-buyer">
+        </blockquote>
+      </li>
+      <li class="each-buyer">
         <div class="top-wrap">
           <img src="./images/image-irene.jpg" alt="Irene Roberts">
           <div class="name-wrap">
@@ -88,12 +89,12 @@
             <span>Verified Buyer</span>
           </div>
         </div>
-        <p class="white-text">
+        <blockquote cite="https://www.linkedin.com/in/hamzat-lawal-a88404239" class="white-text">
           "Customer service is always excellent and very quick turn around. Completely
           delighted with the simplicity of the purchase and the speed of delivery."
-        </p>
-      </div>
-      <div class="each-buyer">
+        </blockquote>
+      </li>
+      <li class="each-buyer">
         <div class="top-wrap">
           <img src="./images/image-anne.jpg" alt="Anne Wallace">
           <div class="name-wrap">
@@ -101,12 +102,12 @@
             <span>Verified Buyer</span>
           </div>
         </div>
-        <p class="white-text">
+        <blockquote cite="https://www.linkedin.com/in/hamzat-lawal-a88404239" class="white-text">
           "Put an order with this company and can only praise them for the very high
           standard. Will definitely use them again and recommend them to everyone!"
-        </p>
-      </div>
-    </section>
+        </blockquote>
+      </li>
+    </ul>
   </main>
   <footer>
     <div class="attribution">
