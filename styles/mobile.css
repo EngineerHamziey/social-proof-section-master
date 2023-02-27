@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem var(--mobile-horizontal-margin) 1rem var(--mobile-horizontal-margin);
+  margin: 0 var(--mobile-horizontal-margin) 1rem var(--mobile-horizontal-margin);
 }
 
 header h1 {
@@ -66,6 +66,7 @@ header h1 {
 }
 
 header p {
+  margin-bottom: 1rem;
   color: var(--Dark-Grayish-Magenta);
   font-weight: 400;
 }
@@ -152,9 +153,11 @@ a:focus-visible {
   
   .main-container {
     max-width: unset;
+    margin-top: 0rem;
   }
   
   .header {
+    margin-top: 6rem;
     max-width: 100%;
     flex-direction: row;
     text-align: left;
@@ -170,7 +173,7 @@ a:focus-visible {
   }
   
   header p {
-    margin-right: unset;
+    margin: 0;
   }
   
   .rating {
@@ -180,7 +183,7 @@ a:focus-visible {
   
   .each-rating{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     padding: 1rem;
   }
