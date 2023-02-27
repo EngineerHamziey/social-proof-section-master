@@ -16,7 +16,7 @@
   --Light-Grayish-Magenta: hsl(300, 24%, 96%);
   --White:hsl(0, 0%, 100%);
   --mobile-max-width: 29rem;
-  --desktop-max-width: 30rem;
+  --desktop-max-width: 70rem;
   --mobile-horizontal-margin: 1rem;
 }
 
@@ -147,18 +147,16 @@ a:focus-visible {
     min-height: 100vh;
   }
   .body-container {
-    max-width: unset;
     margin: 2rem 3rem;
+    max-width: var(--desktop-max-width);
   }
   
   .main-container {
-    max-width: unset;
     margin-top: 0rem;
   }
   
   .header {
     margin-top: 6rem;
-    max-width: 100%;
     flex-direction: row;
     text-align: left;
   }
