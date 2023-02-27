@@ -66,9 +66,9 @@ header h1 {
 }
 
 header p {
-  margin-bottom: 1rem;
-  color: var(--Dark-Grayish-Magenta);
-  font-weight: 400;
+  /* margin-bottom: 1rem; */
+  color: var(--Very-Dark-Magenta);
+  /* font-weight: 700; */
 }
 
 .rating {
